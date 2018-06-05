@@ -1,4 +1,4 @@
-### Bank-Marketing-Data-Analysis
+# Bank-Marketing-Data-Analysis
 
 ## Requirements
 * Python 2.7 
