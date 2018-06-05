@@ -14,8 +14,8 @@ from sklearn.neural_network import MLPClassifier
 #from imblearn.over_sampling import SMOTE
 from evaluate_classifier_performance import evaluate_classifier_performance
 
-df_train = pd.read_csv('bank-additional-preprocessed-svm-standardize-train.csv')
-df_test = pd.read_csv('bank-additional-preprocessed-svm-standardize-test.csv')
+df_train = pd.read_csv('Data/bank-additional-preprocessed-svm-standardize-train.csv')
+df_test = pd.read_csv('Data/bank-additional-preprocessed-svm-standardize-test.csv')
 
 del df_train['Unnamed: 0']
 del df_test['Unnamed: 0']

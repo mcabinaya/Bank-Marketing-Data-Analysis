@@ -16,8 +16,8 @@ from sklearn.model_selection import StratifiedKFold
 
 from evaluate_classifier_performance import evaluate_classifier_performance
 
-df_train = pd.read_csv('bank-additional-preprocessed-mode-normalize-train.csv')
-df_test = pd.read_csv('bank-additional-preprocessed-mode-normalize-test.csv')
+df_train = pd.read_csv('Data/bank-additional-preprocessed-mode-normalize-train.csv')
+df_test = pd.read_csv('Data/bank-additional-preprocessed-mode-normalize-test.csv')
 
 del df_train['Unnamed: 0']
 del df_test['Unnamed: 0']
