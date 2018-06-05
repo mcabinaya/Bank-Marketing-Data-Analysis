@@ -44,7 +44,7 @@ class understanding_data:
     
 
 ### Read csv and get grouped df based on class
-raw_df = pd.read_csv('bank-additional.csv')
+raw_df = pd.read_csv('Data/bank-additional.csv')
 
 understanding_data_obj = understanding_data(raw_df)
 
