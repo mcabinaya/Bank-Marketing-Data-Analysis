@@ -23,10 +23,10 @@ def separate_train_test(df):
 
     return df_train, df_test
 
-df = pd.read_csv('bank-additional.csv')
+df = pd.read_csv('Data/bank-additional.csv')
 df_train, df_test = separate_train_test(df)
 df_train, df_test = preprocessing_features(df_train, df_test,"Standardize")
 df_train, df_test = preprocessing_class(df_train, df_test)
 
-df_train.to_csv('bank-additional-preprocessed-mode-standardize-train.csv')
-df_test.to_csv('bank-additional-preprocessed-mode-standardize-test.csv')
+df_train.to_csv('Data/bank-additional-preprocessed-mode-standardize-train.csv')
+df_test.to_csv('Data/bank-additional-preprocessed-mode-standardize-test.csv')
